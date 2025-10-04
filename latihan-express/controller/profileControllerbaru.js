@@ -6,3 +6,4 @@ export const publicProfilebaru = (req, res) => {
         bio :`Hai semua!, aku `+username
     })  
 }
+
