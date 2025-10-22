@@ -11,7 +11,7 @@ export const register = async (req, res) => {
         console.log(request);
 
         const hashPassword =await hash(request.password)
-
+        
         await UserModel.create({
             username : request.username,
             email : request.email,
